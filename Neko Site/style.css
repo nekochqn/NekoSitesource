@@ -1,0 +1,77 @@
+body{
+background-image: url("./image/background.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+overflow-x: hidden;
+}
+.title {
+text-align: center;
+line-height:300px;
+color:skyblue;
+font-family:"Arial";
+}
+.sub {
+position: relative ; bottom:100px; left:780px;
+font-family:"Arial";
+color:skyblue;
+}
+
+.GitHub {
+border-radius:30px;
+width:10em;
+height:3em;
+text-align:center;
+position: relative ; bottom:0px; left:885px;
+background:white;
+border-color:gray;
+cursor: pointer;
+font-family:"Arial";
+}
+.discord {
+border-radius:30px;
+width:10em;
+height:3em;
+position: relative ; bottom:0px; left:600px;
+font-family:"Arial";
+background:royalblue;
+cursor: pointer;
+border-color:royalblue;
+}
+a:link {
+color:black;
+}
+a:visited {
+color:black;
+}
+
+a:hover {
+color:skyblue;
+} 
+nav {
+ padding-top: 5px;
+ box-sizing: border-box;
+ position: fixed;
+ top: 0;
+ left: 0;
+font-family: "Arial";
+background-color:steelblue;
+border-bottom-right-radius:30px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  margin-right: 35px;
+}
+.GitHubicon {
+position: relative ; bottom:-4px ; left:622px ;
+}
+.discordicon {
+position: relative ; bottom:-4px ; left: 456px ;
+}

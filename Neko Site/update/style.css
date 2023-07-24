@@ -1,0 +1,57 @@
+body{
+background-image: url("../image/background.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+background-attachment: scroll;
+overflow-x: hidden;
+}
+a:link {
+color:black;
+}
+a:visited {
+color:black;
+}
+
+a:hover {
+color:skyblue;
+} 
+nav {
+ padding-top: 5px;
+ box-sizing: border-box;
+ position: fixed;
+ top: 0;
+ left: 0;
+font-family: "Arial";
+background-color:steelblue;
+border-bottom-right-radius:30px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  margin-right: 35px;
+}
+.title {
+position: relative ; bottom:-100px; left:800px;
+font-family:"Arial";
+color:skyblue;
+}
+table {
+position: relative ; bottom:-150px ; left:700px;
+font-family: "Arial";
+border-color:black;
+border-collapse:collapse;
+
+}
+th {
+background:gray;
+}
+
+p {
+font-family:"Arial";
+}
